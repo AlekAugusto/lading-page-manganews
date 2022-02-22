@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+    margin:0 auto;
+    width: 1200px;
+}
+header {
+    align-items: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    justify-content: space-between;
+}
+li { 
+    font-size: 25px;
+    margin: 20px;
+    display: flex;
+    display: inline-block;
+}
+ul {
+    margin-top: 20px;
+}
+h1 {font-size: 58px;
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: rgb(201, 0, 0);;
+}
+#assine {
+    border: solid rgb(201, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+}
+#assine:hover {
+    background-color: rgb(201, 0, 0);
+    color: white;
+}
+#inicio {
+    border: solid rgb(201, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+}
+#inicio:hover {
+    background-color: rgb(201, 0, 0);
+    color: white;
+}
+#animes {
+    border: solid rgb(201, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+}
+#animes:hover {
+    background-color: rgb(201, 0, 0);
+    color: white;
+}
+#fale {
+    border: solid rgb(201, 0, 0);
+    border-radius: 20px;
+    padding: 10px;
+}
+#fale:hover {
+    background-color: rgb(201, 0, 0);
+    color: white;
+}
+main {
+    align-items: center;
+}
+h2 {
+    font-size: 40px;
+    line-height: 40px;
+    color: white;
+}
+#assineagora{
+    margin-top: 20px;
+    text-align: justify;
+}
+p{
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    width: 500px;
+    color: white;
+}
+form {
+    margin-top: 30px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+form [type="submit"] {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 56px;
+    width: 50%;
+    color: white;
+    background-color: rgb(201, 0, 0);
+    font-weight: bold;
+}
+form [type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgb(240, 73, 73);
+}
+input {
+    margin-top: 20px;
+    height: 20px;
+    border: 20px;
+    border-radius: 20px;
+    border: none;
+    padding: 15px;
+    font-size: 26px;
+}
+span {
+    color: rgb(201, 0, 0);;
+}
+img {
+    position: relative;
+    left: 560px;
+   bottom: 480px;
+    width: 600px;
+}
